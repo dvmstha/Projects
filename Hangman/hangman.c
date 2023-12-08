@@ -112,7 +112,8 @@ int main() {
   return 0;
 }
 
-void drawHangman(int numLives) {
+void drawHangman(int numLives) 
+{
   const char *hangmanParts[] = {"     _________",    "    |         |",
                                 "    |         O",   "    |        /|\\",
                                 "    |        / \\", "    |"};
